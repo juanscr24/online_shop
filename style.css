@@ -35,7 +35,7 @@
     position: fixed;
     z-index: 100;
     width: 100%;
-    background: white;
+    background: #fafafa;
     border-bottom: 1px solid black;
 }
 
@@ -114,6 +114,8 @@ nav a:hover {
 
 main {
     padding-top: 89px;
+    background-color: #eaeff0;
+    padding-bottom: 50px;
 }
 
 .heroe img {
@@ -184,7 +186,6 @@ footer {
     gap: 30px;
     background-color: #282c31;
     padding: 30px 0px;
-    margin-top: 50px;
 }
 
 footer a,
