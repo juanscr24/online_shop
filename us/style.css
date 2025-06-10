@@ -128,7 +128,7 @@ main a {
     padding-left: 40px;
 }
 
-.nosotros {
+.us {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -136,12 +136,12 @@ main a {
     padding: 0px 40px;
 }
 
-.nosotros h1 {
+.us h1 {
     font-family: "Alumni Sans SC", sans-serif;;
     font-size: 28px;
 }
 
-.nosotros p, span {
+.us p, span {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 15px;
