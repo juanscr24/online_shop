@@ -1,47 +1,18 @@
 ### Name: Juan Cardona
-
-# Proyecto Online Tienda
-*** 
-Introduccion de la tienda
+### Clan: Ciénaga 
+### Correo: juanscr24@gmail.com 
+### C.C: 1.140.897.309
+***
+# Project: Online Shop
+***
+This is a Clone of ADIDAS PAGE, I tried to make a similar page to adidas, but with new things, the logo and the general design is from adidas.
 
 ## TECHNOLOGIES USED:
 * HTML
 * CSS
 
 ## TO INITIALIZE: 
-We need to press F5, to execute the code.
-Running the program will allow us to enter five products, allowing us to see the remaining options.
+We need to press Go live or Open in Browser, to execute the code.
+Running the program we have some option up and down.
 
-### First three data:
-* Data name = String 
-* Data price = Float 
-* Date quantity = Int
-
-This data is run five times. You must enter five different values, otherwise it will not count.
-
-After entering the five products into your inventory, you're done. You've entered inventory.
-Here you'll have seven options:
-
-### Add a new product:
-
-Here you can enter a new product, but be careful, if this new product already exists, it will be rejected.
-
-### Search a product for name: 
-
-Here you can search for a product by name, only that product and all its values ​​will be displayed.
-
-### Update price:
-
-You can update the price of a specific value
-
-#### Remove product:
-
-You can delete a product by its name.
-
-### Total Valua: Inventary:
-
-The total sum of the inventory will be made
-
-### Exit:
-
-It will exit the inventory and the menu
+It is a page where I use some HTML pages, in the layout we use GRID and FLEXBOX

@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.up-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    height: 40px;
+    gap: 10px;
+}
+
+.up-page p {
+    color: #ffffff;
+    font-family: "Alumni Sans SC", sans-serif;
+    font-weight: 600;
+}
+
+.hearts {
+    font-size: 12px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid black;
+}
+
+.logo img {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #000000;
+    font-family: "Alumni Sans SC", sans-serif;
+    font-weight: 600;
+    transition: all ease-in-out 0.5s;
+}
+
+nav a:hover {
+    transition: all ease-in-out 0.5s;
+    text-decoration: underline;
+}
+
+.sport {
+    font-weight: 400;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.user i {
+    font-size: 18px;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.search-icon {
+    display: flex;
+    gap: 20px;
+}
+
+.search-bar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 9px 13px;
+    border-radius: 20px;
+    width: 168px;
+}
+
+#mobile-search {
+    display: none;
+}
+
+.search-bar:hover {
+    outline: auto;
+}
+
+.search-bar input {
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 89px;
+}
+
+main .a {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Alumni Sans SC", sans-serif;
+    padding-left: 40px;
+}
+
+.title {
+    font-family: "Alumni Sans SC", sans-serif;
+    font-size: 24px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    gap: 40px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.form input, textarea {
+    padding: 10px;
+}
+
+.form input, textarea::placeholder {
+    font-family: "Alumni Sans SC", sans-serif;
+}
+
+.social_medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social_medias i {
+    color: black;
+    padding: 10px;
+    transition:all ease-in-out 0.5s;
+}
+
+.social_medias a {
+    transition:all ease-in-out 0.5s;
+}
+
+.social_medias a:hover {
+    border-radius: 5px;
+    transition:all ease-in-out 0.5s;
+}
+
+.social_medias i:hover {
+    color: #ffffff;
+}
+
+.contact-container .social_medias .facebook:hover {
+    background: #0099e5;
+    transition:all ease-in-out 0.5s;  
+}
+
+.contact-container .social_medias .twitter:hover {
+    background: #1da1f2e5;
+    transition:all ease-in-out 0.5s;
+}
+
+.contact-container .social_medias .instagram:hover {
+    background: #FF0069;
+    transition:all ease-in-out 0.5s;
+}
+
+.contact-container .social_medias .youtube:hover {
+    background: #ff0000;
+    transition:all ease-in-out 0.5s;
+}
+
+.contact-container .social_medias .githup:hover {
+    background: #4078c0;
+    transition:all ease-in-out 0.5s;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    background-color: #282c31;
+    padding: 30px 0px;
+    margin-top: 50px;
+}
+
+footer a, footer span {
+    color: #dde1eb;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+.border-right {
+    border-right: 1px solid #dde1eb;
+    padding-right: 20px;
+}
+
+footer .legal-info {
+    display: flex;
+    gap: 20px;
+}
+
+
+/* Desktop */
+@media screen and (max-width: 1024px) {
+
+    .user i {
+        font-size: 16px;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    #mobile-search {
+        display: block;
+    }
+
+    .section_one h2 {
+        padding: 15px 60px;
+    }
+
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+    .logo img {
+        width: 130px;
+    }
+
+    nav a {
+        font-size: 19px;
+    }
+
+    main {
+        padding-top: 77px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 30px;
+    }
+    nav {
+        display: none;
+    }
+}
